@@ -1,3 +1,3 @@
-wait(7)
+wait(5)
 script_key = "xrGpcexETYzPSOWiRKPMIEgecwcFUqEi";
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
