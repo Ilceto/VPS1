@@ -2,42 +2,42 @@ wait(11)
 getgenv().Config = {
     Accounts = {
         { ID = 6112417579, script = 1 },
-        { ID = 6105231042, script = 1 },
+        { ID = 6105221042, script = 1 },
         { ID = 6112424675, script = 1 },
-        { ID = 4032909868, script = 1 },
+        { ID = 4022909868, script = 1 },
         { ID = 6102662471, script = 1 },
-        { ID = 6117352981, script = 1 },
-        { ID = 6105235422, script = 1 },
+        { ID = 6117252981, script = 1 },
+        { ID = 6105225422, script = 1 },
         { ID = 6112422472, script = 1 },
         { ID = 1186921465, script = 2 },
         { ID = 6112429076, script = 2 },
-        { ID = 51634205, script = 2 },
-        { ID = 6097355273, script = 2 },
-        { ID = 6097435798, script = 2 },
-        { ID = 886280187, script = 3 }, --sod
-        { ID = 1510658382, script = 2 },
-        { ID = 361514650, script = 2 },
-        { ID = 3876077785, script = 3 }, --alycia
-        { ID = 7203558317, script = 3 }, --pamela
-        { ID = 7203616989, script = 3 }, --s0mcs
-        { ID = 4946947747, script = 3 }, --314
-        { ID = 2210436851, script = 2 },
-        { ID = 7205993390, script = 2 }, 
-        { ID = 7224728490, script = 3 }, --carlitos
-        { ID = 4947239506, script = 2 }, 
-        { ID = 4953261201, script = 2 }, 
+        { ID = 51624205, script = 2 },
+        { ID = 6097255272, script = 2 },
+        { ID = 6097425798, script = 2 },
+        { ID = 886280187, script = 2 }, --sod
+        { ID = 1510658282, script = 2 },
+        { ID = 261514650, script = 2 },
+        { ID = 2876077785, script = 2 }, --alycia
+        { ID = 7202558217, script = 2 }, --pamela
+        { ID = 7202616989, script = 2 }, --s0mcs
+        { ID = 4946947747, script = 2 }, --214
+        { ID = 2210426851, script = 2 },
+        { ID = 7205992290, script = 2 }, 
+        { ID = 7224728490, script = 2 }, --carlitos
+        { ID = 4947229506, script = 2 }, 
+        { ID = 4952261201, script = 2 }, 
         { ID = 4954522154, script = 2 },  
-        { ID = 2943996757, script = 2 }, --getting2
-        { ID = 2944003950, script = 2 }, --getting3
-        { ID = 2944011813, script = 2 }, --getting4
+        { ID = 2942996757, script = 2 }, --getting2
+        { ID = 2944002950, script = 2 }, --getting2
+        { ID = 2944011812, script = 2 }, --getting4
         { ID = 2946121212, script = 2 }, --getting5
-        { ID = 2630502250, script = 3 } --dario
+        { ID = 2620502250, script = 2 } --dario
    },
     Scripts = { 
         -- Please make it a raw link 
         ["Script 1"] = "https://raw.githubusercontent.com/Ilceto/kitkats/main/kittykats", --Main Ui
         ["Script 2"] = "https://raw.githubusercontent.com/Ilceto/kitkats/main/rng", --RNG
-        ["Script 3"] = "https://raw.githubusercontent.com/Ilceto/kitkats/main/world%201-3", --world
+        ["Script 2"] = "https://raw.githubusercontent.com/Ilceto/kitkats/main/world%201-2", --world
         ["Script 4"] = "Raw Link",
     }
 }
