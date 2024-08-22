@@ -14,16 +14,16 @@ getgenv().Config = {
         { ID = 51634205, script = 2 },
         { ID = 6097355273, script = 2 },
         { ID = 6097435798, script = 2 },
-        { ID = 886280187, script = 2 }, --sod
+        { ID = 886280187, script = 3 }, --sod
         { ID = 1510658382, script = 2 },
         { ID = 361514650, script = 2 },
-        { ID = 3876077785, script = 2 }, --alycia
-        { ID = 7203558317, script = 2 }, --pamela
-        { ID = 7203616989, script = 2 }, --s0mcs
-        { ID = 4946947747, script = 2 }, --314
+        { ID = 3876077785, script = 3 }, --alycia
+        { ID = 7203558317, script = 3 }, --pamela
+        { ID = 7203616989, script = 3 }, --s0mcs
+        { ID = 4946947747, script = 3 }, --314
         { ID = 2210436851, script = 2 },
         { ID = 7205993390, script = 2 }, 
-        { ID = 7224728490, script = 2 }, --carlitos
+        { ID = 7224728490, script = 3 }, --carlitos
         { ID = 4947239506, script = 2 }, 
         { ID = 4953261201, script = 2 }, 
         { ID = 4954522154, script = 2 },  
@@ -31,13 +31,13 @@ getgenv().Config = {
         { ID = 2944003950, script = 2 }, --getting3
         { ID = 2944011813, script = 2 }, --getting4
         { ID = 2946121212, script = 2 }, --getting5
-        { ID = 2630502250, script = 2 } --dario
+        { ID = 2630502250, script = 3 } --dario
    },
     Scripts = { 
         -- Please make it a raw link 
         ["Script 1"] = "https://raw.githubusercontent.com/Ilceto/kitkats/main/kittykats", --Main Ui
         ["Script 2"] = "https://raw.githubusercontent.com/Ilceto/kitkats/main/rng", --RNG
-        ["Script 3"] = "Raw Link",
+        ["Script 3"] = "https://raw.githubusercontent.com/Ilceto/kitkats/main/world%201-3",
         ["Script 4"] = "Raw Link",
     }
 }
