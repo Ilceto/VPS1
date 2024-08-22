@@ -37,7 +37,7 @@ getgenv().Config = {
         -- Please make it a raw link 
         ["Script 1"] = "https://raw.githubusercontent.com/Ilceto/kitkats/main/kittykats", --Main Ui
         ["Script 2"] = "https://raw.githubusercontent.com/Ilceto/kitkats/main/rng", --RNG
-        ["Script 2"] = "https://raw.githubusercontent.com/Ilceto/kitkats/main/world%201-2", --world
+        ["Script 3"] = "https://raw.githubusercontent.com/Ilceto/kitkats/main/world%201-2", --world
         ["Script 4"] = "Raw Link",
     }
 }
