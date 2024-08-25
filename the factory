@@ -9,29 +9,29 @@ getgenv().Config = {
         { ID = 6117352981, script = 1 },
         { ID = 6105235422, script = 1 },
         { ID = 6112422472, script = 1 },
-        { ID = 1186921465, script = 2 },
         { ID = 6112429076, script = 1 }, --julia
         { ID = 51634205, script = 1 }, --alex
-        { ID = 6097355273, script = 2 },
-        { ID = 6097435798, script = 2 },
-        { ID = 886280187, script = 2 }, --sod
-        { ID = 1510658382, script = 2 },
         { ID = 361514650, script = 1 }, --bear
-        { ID = 3876077785, script = 2 }, --alycia
-        { ID = 7203558317, script = 2 }, --pamela
-        { ID = 7203616989, script = 2 }, --s0mcs
-        { ID = 4946947747, script = 2 }, --314
-        { ID = 2210436851, script = 2 },
-        { ID = 7205993390, script = 2 }, 
-        { ID = 7224728490, script = 2 }, --carlitos
-        { ID = 4947239506, script = 2 }, 
-        { ID = 4953261201, script = 2 }, 
-        { ID = 4954522154, script = 2 },  
-        { ID = 2943996757, script = 2 }, --getting2
-        { ID = 2944003950, script = 2 }, --getting3
-        { ID = 2944011813, script = 2 }, --getting4
-        { ID = 2946121212, script = 2 }, --getting5
-        { ID = 2630502250, script = 2 } --dario
+        { ID = 1186921465, script = 3 },
+        { ID = 6097355273, script = 3 },
+        { ID = 6097435798, script = 3 },
+        { ID = 886280187, script = 3 }, --sod
+        { ID = 1510658382, script = 3 },
+        { ID = 3876077785, script = 3 }, --alycia
+        { ID = 7203558317, script = 3 }, --pamela
+        { ID = 7203616989, script = 3 }, --s0mcs
+        { ID = 4946947747, script = 3 }, --314
+        { ID = 2210436851, script = 3 },
+        { ID = 7205993390, script = 3 }, 
+        { ID = 7224728490, script = 3 }, --carlitos
+        { ID = 4947239506, script = 3 }, 
+        { ID = 4953261201, script = 3 }, 
+        { ID = 4954522154, script = 3 },  
+        { ID = 2943996757, script = 3 }, --getting2
+        { ID = 2944003950, script = 3 }, --getting3
+        { ID = 2944011813, script = 3 }, --getting4
+        { ID = 2946121212, script = 3 }, --getting5
+        { ID = 2630502250, script = 3 } --dario
    },
     Scripts = { 
         -- Please make it a raw link 
