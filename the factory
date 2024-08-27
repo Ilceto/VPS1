@@ -10,11 +10,11 @@ getgenv().Config = {
         { ID = 6105235422, script = 1 },
         { ID = 6112422472, script = 1 },
         { ID = 6112429076, script = 1 }, --julia
-        { ID = 7224728490, script = 1 }, --carlitos
-        { ID = 7203558317, script = 1 }, --pamela
+        { ID = 7224728490, script = 4 }, --carlitos
+        { ID = 7203558317, script = 4 }, --pamela
         { ID = 51634205, script = 1 }, --alex
         { ID = 361514650, script = 1 }, --bear
-        { ID = 2210436851, script = 1 }, --reiley
+        { ID = 2210436851, script = 4 }, --reiley
         { ID = 1186921465, script = 1 }, --hollyeden
         { ID = 6097355273, script = 1 }, --90
         { ID = 6097435798, script = 1 }, --91
