@@ -15,7 +15,7 @@ getgenv().Config = {
         { ID = 51634205, script = 4 }, --alex
         { ID = 361514650, script = 4 }, --bear
         { ID = 2210436851, script = 4 }, --reiley
-        { ID = 1186921465, script = 3 },
+        { ID = 1186921465, script = 4 }, --hollyeden
         { ID = 6097355273, script = 4 }, --90
         { ID = 6097435798, script = 4 }, --91
         { ID = 886280187, script = 3 }, --sod
