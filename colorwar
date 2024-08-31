@@ -1,10 +1,11 @@
+wait(5)
 getgenv().KiTTYWARE_ColorWar = {
     Farm_Zones = true,
     Hatch_Eggs = true,
     Hatching_Misc = {
-        discord_UserID = "",
-        hugeNotif_Webhook = "Enter your Webhook Url.",
-        hugeNotif_Enabled = false,
+        discord_UserID = "807267031929716776",
+        hugeNotif_Webhook = "https://discord.com/api/webhooks/1273665273848795167/5ig7c7YSn7YINFekOfz0oaUGiyxFIsttzMzDGG_-IJNm6QctEAsrRfLDe1IDaRMtN1Bl",
+        hugeNotif_Enabled = true,
         autoMail_User = "Enter your Username.",
         autoMail_Enabled = false, -- WARNING: using this feature has a .5% Chance to donate to me and Wyan :3
     },
