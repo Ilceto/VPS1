@@ -36,9 +36,9 @@ getgenv().Config = {
     Scripts = { 
         -- Please make it a raw link 
         ["Script 1"] = "https://raw.githubusercontent.com/Ilceto/kitkats/main/kittykats", --Main Ui
-        ["Script 2"] = "https://raw.githubusercontent.com/Ilceto/kitkats/main/rng", --RNG
-        ["Script 3"] = "https://raw.githubusercontent.com/Ilceto/kitkats/main/world%201-3",
-        ["Script 4"] = "https://raw.githubusercontent.com/Ilceto/kitkats/main/kittykats%20alpha",
+        ["Script 2"] = "https://raw.githubusercontent.com/Ilceto/kitkats/main/rng", -- COLOR WAR
+        ["Script 3"] = "", 
+        ["Script 4"] = "https://raw.githubusercontent.com/Ilceto/kitkats/main/kittykats%20alpha", --Alpha Ui
     }
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Pauleeeee1/RobloxManagerStuff/main/Multi%20Execute"))()
