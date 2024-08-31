@@ -1,5 +1,0 @@
-wait(5)
-print("hello")
-
-wait(5)
-print("hello2")
