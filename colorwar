@@ -1,5 +1,6 @@
 wait(5)
 script_key = "dTOdrKuLMOyWHpSNWJvsbdkMQZKBFzkI";
+_G.GPROGRESS_MODE = "Hybrid"
 _G.GDO_COLORS_INSTANCE = true
 _G.GGFX_MODE = 1
 _G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1273665273848795167/5ig7c7YSn7YINFekOfz0oaUGiyxFIsttzMzDGG_-IJNm6QctEAsrRfLDe1IDaRMtN1Bl"
