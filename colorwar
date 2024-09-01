@@ -1,14 +1,13 @@
 wait(5)
-getgenv().KiTTYWARE_ColorWar = {
-    Farm_Zones = true,
-    Hatch_Eggs = true,
-    Hatching_Misc = {
-        discord_UserID = "807267031929716776",
-        hugeNotif_Webhook = "https://discord.com/api/webhooks/1273665273848795167/5ig7c7YSn7YINFekOfz0oaUGiyxFIsttzMzDGG_-IJNm6QctEAsrRfLDe1IDaRMtN1Bl",
-        hugeNotif_Enabled = true,
-        autoMail_User = "Enter your Username.",
-        autoMail_Enabled = false, -- WARNING: using this feature has a .5% Chance to donate to me and Wyan :3
-    },
-    Fps_Boost1 = true,
-}
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/38e4778402a1d51414b40ab60274c5ed.lua"))()
+script_key = "cdRCQIMTnNCYzgbkmWMgTdaxQMwHUwAO";
+--_G.GPROGRESS_MODE = "Hatch"
+_G.GDO_COLORS_INSTANCE = true
+_G.GMAIL_RECEIVERS = {"gettingboost"} 
+_G.GMAX_HATCH = 999
+_G.GGFX_MODE = 2
+_G.GFRUITS = {"Apple","Banana","Orange","Pineapple","Watermelon","Rainbow"}
+_G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1273665273848795167/5ig7c7YSn7YINFekOfz0oaUGiyxFIsttzMzDGG_-IJNm6QctEAsrRfLDe1IDaRMtN1Bl"
+_G.GWEBHOOK_USERID = "807267031929716776"
+_G.GHOLD_GIFTS = false
+_G.GHOLD_BUNDLES = false
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
