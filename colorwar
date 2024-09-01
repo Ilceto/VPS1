@@ -2,7 +2,6 @@ wait(5)
 script_key = "dTOdrKuLMOyWHpSNWJvsbdkMQZKBFzkI";
 _G.GDO_COLORS_INSTANCE = true
 _G.GGFX_MODE = 1
-_G.GFRUITS = {"Apple","Banana","Orange","Pineapple","Watermelon","Rainbow"}
 _G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1273665273848795167/5ig7c7YSn7YINFekOfz0oaUGiyxFIsttzMzDGG_-IJNm6QctEAsrRfLDe1IDaRMtN1Bl"
 _G.GWEBHOOK_USERID = "807267031929716776"
 _G.GHOLD_GIFTS = false
