@@ -1,6 +1,6 @@
 wait(5)
 script_key = "cdRCQIMTnNCYzgbkmWMgTdaxQMwHUwAO";
---_G.GPROGRESS_MODE = "Hatch"
+--_G.GSPECIAL_HATCH = "ColorsInstance"
 _G.GDO_COLORS_INSTANCE = true
 _G.GMAIL_RECEIVERS = {"gettingboost"} 
 _G.GMAX_HATCH = 999
