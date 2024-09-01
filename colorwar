@@ -1,5 +1,5 @@
 wait(5)
-script_key = "cdRCQIMTnNCYzgbkmWMgTdaxQMwHUwAO";
+script_key = "ElEvcSTCSKyTKpzCELHRtziZtGRSUEmq";
 --_G.GSPECIAL_HATCH = "ColorsInstance"
 _G.GPROGRESS_MODE = "Hybrid"
 _G.GDO_COLORS_INSTANCE = true
