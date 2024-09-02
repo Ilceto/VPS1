@@ -33,7 +33,7 @@ getgenv().Config = {
         -- Please make it a raw link 
         ["Script 1"] = "https://raw.githubusercontent.com/Ilceto/kitkats/main/kittykats", --Main Ui
         ["Script 2"] = "https://raw.githubusercontent.com/Ilceto/kitkats/main/colorwar", -- COLOR WAR
-        ["Script 3"] = "", 
+        ["Script 3"] = "https://raw.githubusercontent.com/Ilceto/kitkats/main/antiafk", --ANTI AFK
         ["Script 4"] = "https://raw.githubusercontent.com/Ilceto/kitkats/main/kittykats%20alpha", --Alpha Ui
     }
 }
