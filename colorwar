@@ -1,11 +1,26 @@
-wait(5)
-script_key = "dTOdrKuLMOyWHpSNWJvsbdkMQZKBFzkI";
-_G.GZONE_TO = 999
-_G.GPROGRESS_MODE = "Hatch"
-_G.GDO_COLORS_INSTANCE = true
-_G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1273665273848795167/5ig7c7YSn7YINFekOfz0oaUGiyxFIsttzMzDGG_-IJNm6QctEAsrRfLDe1IDaRMtN1Bl"
-_G.GWEBHOOK_USERID = "807267031929716776"
-_G.GHOLD_GIFTS = false -- true/false, only set true when you don't want it to use consume your giftbags
-_G.GHOLD_BUNDLES = false -- true/false, only set true if you don't want it to use your bundles.
-_G.GGFX_MODE = 2  -- number,   1 = REMOVE_TEXTURES,2 = LOWER_TEXTURES_QUALITY, 3 = NORMAL
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
+getgenv().KiTTYWARE_ColorWar = {
+    Farm_Zones = true,
+    Farming_Misc = {
+        Pets_Per_Breakable = 1,
+        Auto_Pickups = true,
+        Inf_Pet_Speed = true,
+
+        Event_Specific = {
+            Color_Gifts = {Enabled = disable, Minimum_Buckets = 75},
+            Clan_Points = {Enabled = disable, Minimum_Buckets = 50},
+            Stay_Teams = {Enabled = disable, Only_Winning = true},
+        },
+    },
+    Hatch_Eggs = true,
+    Hatching_Misc = {
+        discord_UserID = "807267031929716776",
+        hugeNotif_Webhook = "https://discord.com/api/webhooks/1273665273848795167/5ig7c7YSn7YINFekOfz0oaUGiyxFIsttzMzDGG_-IJNm6QctEAsrRfLDe1IDaRMtN1Bl",
+        hugeNotif_Enabled = true,
+        autoMail_User = "gettingboost",
+        autoMail_Enabled = true,
+    },
+    StatsGui = true,
+    Fps_Boost1 = true, -- world stuff invisible
+    Fps_Boost2 = false, -- disable localscript 
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/38e4778402a1d51414b40ab60274c5ed.lua"))()
