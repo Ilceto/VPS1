@@ -31,7 +31,7 @@ getgenv().Settings = {
       --  "Username2",
       --  "Username3",
     },
-    ["Split Items Evenly"] = false, --// False -> it will send the Amount per account.
+    ["Split Items Evenly"] = true, --// False -> it will send the Amount per account.
     ["Only Online Accounts"] = false,
 
     [[ Thank you for using System Exodus <3! ]]
