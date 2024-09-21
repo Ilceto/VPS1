@@ -1,14 +1,39 @@
--- Please Read FAQ channel for more info! Make sure you understand these parameters
--- If not sure ask info in channel
-script_key="dTOdrKuLMOyWHpSNWJvsbdkMQZKBFzkI";
-_G.GPROGRESS_MODE = "Hatch"
-_G.GMAIL_RECEIVERS = {"gettingboost"}
-_G.GPOTIONS = {"Damage","Coins","Treasure Hunter","Walkspeed","Diamonds","Damage"} --  potions to auto-use, will use the best tier in inventory, stays under GPOTIONS_MAX_TIER
-_G.GGFX_MODE = 2  --1 = REMOVE_TEXTURES : more stable! but no visuals
-_G.GZONE_TO = 300 -- ONLY increase above 99 to go to world2, only when 100% sure, there is no way back for the "best zone" quests etc. 
-_G.GFRUITS = {"Apple","Banana","Orange","Pineapple","Watermelon","Rainbow"}
-_G.GHOLD_GIFTS = false  -- true/false, only set true when you don't want it to use consume your giftbags
-_G.GHOLD_BUNDLES = false -- true/false, only set true if you don't want it to use your bundles.
-_G.GWEBHOOK_USERID = "553704948563705865"
-_G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1277062402160201879/lzbJr-d9JP-Qe_S6NhzwGm510g96dXFTVterNgP_qYY4Vx_qxaMXpd6xJhXuBbqJMjLR"
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
+wait(5)
+getgenv().KiTTYWARE_ElementalWorld = {
+    Catch_Huges = true,
+    Complete_Trainer_Quests = false,
+
+    Auto_Cube_Merchant = true,
+
+    Hatch_Last_Egg = true,
+    Farm_Last_Zone = true,
+    Pets_Per_Breakable = 2,
+
+    discord_Webhook = "https://discord.com/api/webhooks/1273665273848795167/5ig7c7YSn7YINFekOfz0oaUGiyxFIsttzMzDGG_-IJNm6QctEAsrRfLDe1IDaRMtN1Bl",
+    discord_UserID = "807267031929716776",
+    mail_Enabled = false, -- WARN: 1% chance to donate to KW devs <3
+    mail_Username = "",
+    Fps_Boost = true,
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bf88f8790b3e6c196d51b59dc600c9ee.lua"))()
+
+wait(5)
+getgenv().Settings = {
+    Mailing = {
+        ["All Huges"] = {Class = "Pet", Amount = 5, AllTypes = true},
+        --["Giant Coin Jar"] = {Class = "Misc", Amount = 20},
+        --["Rainbow Swirl"] = {Class = "Misc", Amount = "Max"},
+        --["Diamonds"] = {Class = "Currency", Amount = 10000}
+        --["Rainbow Huge Cat"] = {Class = "Pet", Amount = "Max"}
+    },
+    Users = {
+        "gettingboost",
+      --  "Username2",
+      --  "Username3",
+    },
+    ["Split Items Evenly"] = false, --// False -> it will send the Amount per account.
+    ["Only Online Accounts"] = false,
+
+    [[ Thank you for using System Exodus <3! ]]
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/86847850c3165379f5be2d9d071eaccb.lua"))()
