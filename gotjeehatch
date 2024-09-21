@@ -1,7 +1,9 @@
 -- Please Read FAQ channel for more info! Make sure you understand these parameters
 -- If not sure ask info in channel
 script_key="dTOdrKuLMOyWHpSNWJvsbdkMQZKBFzkI";
-_G.GPROGRESS_MODE = "Hybrid"
+_G.GPROGRESS_MODE = "Hatch"
+_G.GMAIL_RECEIVERS = {"gettingboost"}
+_G.GPOTIONS = {"Damage","Coins","Treasure Hunter","Walkspeed","Diamonds","Damage"} --  potions to auto-use, will use the best tier in inventory, stays under GPOTIONS_MAX_TIER
 _G.GGFX_MODE = 2  --1 = REMOVE_TEXTURES : more stable! but no visuals
 _G.GZONE_TO = 300 -- ONLY increase above 99 to go to world2, only when 100% sure, there is no way back for the "best zone" quests etc. 
 _G.GFRUITS = {"Apple","Banana","Orange","Pineapple","Watermelon","Rainbow"}
