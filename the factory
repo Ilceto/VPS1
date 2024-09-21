@@ -1,21 +1,21 @@
 wait(5)
 getgenv().Config = {
     Accounts = {
-        { ID = 6112417579, script = 1 }, --riste HUGE HUNTER
-        { ID = 6105231042, script = 1 }, --benjamin HUGE HUNTER
-        { ID = 6112424675, script = 1 }, --sarah HUGE HUNTER
-        { ID = 4032909868, script = 1 }, --313 HUGE HUNTER/SUPER DROPS
-        { ID = 6102662471, script = 1 }, --valerie HUGE HUNTER
-        { ID = 6117352981, script = 1 }, --henry HUGE HUNTER
-        { ID = 6105235422, script = 1 }, --miguel HUGE HUNTER
-        { ID = 6112422472, script = 1 }, --luca HUGE HUNTER
-        { ID = 6112429076, script = 1 }, --julia HUGE HUNTER
-        { ID = 51634205, script = 1 }, --alex HUGE HUNTER
-        { ID = 361514650, script = 1 }, --bear HUGE HUNTER
-        { ID = 2210436851, script = 1 }, --reiley HUGE HUNTER
-        { ID = 1186921465, script = 1 }, --hollyeden HUGE HUNTER
-        { ID = 6097355273, script = 1 }, --90 HUGE HUNTER
-        { ID = 1510658382, script = 1 }, --igi HUGE HUNTER
+        { ID = 6112417579, script = 2 }, --riste HUGE HUNTER
+        { ID = 6105231042, script = 2 }, --benjamin HUGE HUNTER
+        { ID = 6112424675, script = 2 }, --sarah HUGE HUNTER
+        { ID = 4032909868, script = 2 }, --313 HUGE HUNTER/SUPER DROPS
+        { ID = 6102662471, script = 2 }, --valerie HUGE HUNTER
+        { ID = 6117352981, script = 2 }, --henry HUGE HUNTER
+        { ID = 6105235422, script = 2 }, --miguel HUGE HUNTER
+        { ID = 6112422472, script = 2 }, --luca HUGE HUNTER
+        { ID = 6112429076, script = 2 }, --julia HUGE HUNTER
+        { ID = 51634205, script = 2 }, --alex HUGE HUNTER
+        { ID = 361514650, script = 2 }, --bear HUGE HUNTER
+        { ID = 2210436851, script = 2 }, --reiley HUGE HUNTER
+        { ID = 1186921465, script = 2 }, --hollyeden HUGE HUNTER
+        { ID = 6097355273, script = 2 }, --90 HUGE HUNTER
+        { ID = 1510658382, script = 2 }, --igi HUGE HUNTER
         { ID = 7224728490, script = 2 }, --carlitos
         { ID = 7203558317, script = 2 }, --pamela
         { ID = 6097435798, script = 2 }, --91
