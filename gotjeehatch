@@ -20,7 +20,7 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bf88f8790b3e6c
 wait(5)
 getgenv().Settings = {
     Mailing = {
-        ["All Huges"] = {Class = "Pet", Amount = 5, AllTypes = true},
+        ["All Huges"] = {Class = "Pet", Amount = 1, AllTypes = true},
         --["Giant Coin Jar"] = {Class = "Misc", Amount = 20},
         --["Rainbow Swirl"] = {Class = "Misc", Amount = "Max"},
         --["Diamonds"] = {Class = "Currency", Amount = 10000}
