@@ -3,7 +3,7 @@ getgenv().KiTTYWARE_ElementalWorld = {
     Catch_Huges = true,
     Complete_Trainer_Quests = false,
 
-    Auto_Cube_Merchant = true,
+    Auto_Cube_Merchant = false,
 
     Hatch_Last_Egg = true,
     Farm_Last_Zone = true,
