@@ -1,21 +1,21 @@
 getgenv().Config = {
     ["Farming"] = {
         ["AutoSprinklers"] = true,
-        ["AutoEvents"] = true,
+        ["AutoEvents"] = false,
         ["AutoFruits"] = true,
         ["AutoOpen"] = {"Gift Bag", "Large Gift Bag", "Mini Chest"},
         ["AutoPotions"] = {"Diamonds", "Damage", "Walkspeed", "Treasure Hunter"},
-        ["AutoFlags"] = {"Hasty Flag"}
+        ["AutoFlags"] = {"Fortune Flag"}
     },
     ["Webhook"] = {
-        ["HugeURL"] = "",
-        ["StatsURL"] = "",
-        ["UserID"] = "123123123",
-        ["SendEvery"] = 1 -- In Minutes
+        ["HugeURL"] = "https://discord.com/api/webhooks/1259840141891993693/p7HOwN5nOh1mWRPZ1H5XuScIXBRZ09ctlFKHAKC_ZMbAR_8lf7LjIn0gHElpCaLIKaR8",
+        ["StatsURL"] = "https://discord.com/api/webhooks/1287408801695141949/0FPeclZ20tvbQG_q5dIAs9MfSDvkrklL0eGN86JvK7dErVvXTdrNeVWRlumQUKQY88CN",
+        ["UserID"] = "everyone",
+        ["SendEvery"] = 5 -- In Minutes
     },
     ["Misc"] = {
         ["AutoHatch"] = true,
-        ["AutoDaycare"] = true,
+        ["AutoDaycare"] = false,
         ["UltraFPS"] = true,
     }
 }
