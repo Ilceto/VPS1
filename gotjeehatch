@@ -9,8 +9,8 @@ getgenv().KiTTYWARE_ElementalWorld = {
     Farm_Last_Zone = false,
     Pets_Per_Breakable = 2,
 
-    discord_Webhook = "https://discord.com/api/webhooks/1273665273848795167/5ig7c7YSn7YINFekOfz0oaUGiyxFIsttzMzDGG_-IJNm6QctEAsrRfLDe1IDaRMtN1Bl",
-    discord_UserID = "807267031929716776",
+    discord_Webhook = "https://discord.com/api/webhooks/1259840141891993693/p7HOwN5nOh1mWRPZ1H5XuScIXBRZ09ctlFKHAKC_ZMbAR_8lf7LjIn0gHElpCaLIKaR8",
+    discord_UserID = "553704948563705865",
     mail_Enabled = false, -- WARN: 1% chance to donate to KW devs <3
     mail_Username = "",
     Fps_Boost = false,
