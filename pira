@@ -1,0 +1,22 @@
+getgenv().Config = {
+    ["Farming"] = {
+        ["AutoSprinklers"] = true,
+        ["AutoEvents"] = true,
+        ["AutoFruits"] = true,
+        ["AutoOpen"] = {"Gift Bag", "Large Gift Bag", "Mini Chest"},
+        ["AutoPotions"] = {"Diamonds", "Damage", "Walkspeed", "Treasure Hunter"},
+        ["AutoFlags"] = {"Hasty Flag"}
+    },
+    ["Webhook"] = {
+        ["HugeURL"] = "",
+        ["StatsURL"] = "",
+        ["UserID"] = "123123123",
+        ["SendEvery"] = 1 -- In Minutes
+    },
+    ["Misc"] = {
+        ["AutoHatch"] = true,
+        ["AutoDaycare"] = true,
+        ["UltraFPS"] = true,
+    }
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2bdebaf848a6be382ed338dad329aaf2.lua"))()
