@@ -20,6 +20,6 @@ getgenv().KiTTYWARE_Elemental = {
 script_key = "xrGpcexETYzPSOWiRKPMIEgecwcFUqEi";
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b2d2d7d3e5cbec16ec501a759f3830ce.lua"))()
 
-wait(10)
+wait(15)
 script_key = "xrGpcexETYzPSOWiRKPMIEgecwcFUqEi";
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
