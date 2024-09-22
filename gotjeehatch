@@ -1,18 +1,22 @@
 wait(5)
 getgenv().KiTTYWARE_ElementalWorld = {
-    Catch_Huges = true,
+    Catch_Huges = false,
     Complete_Trainer_Quests = false,
 
     Auto_Cube_Merchant = false,
 
-    Hatch_Last_Egg = true,
+    Hatch_Last_Egg = false,
     Farm_Last_Zone = true,
     Pets_Per_Breakable = 2,
 
-    discord_Webhook = "https://discord.com/api/webhooks/1273665273848795167/5ig7c7YSn7YINFekOfz0oaUGiyxFIsttzMzDGG_-IJNm6QctEAsrRfLDe1IDaRMtN1Bl",
-    discord_UserID = "807267031929716776",
+    discord_Webhook = "",
+    discord_UserID = "",
     mail_Enabled = false, -- WARN: 1% chance to donate to KW devs <3
     mail_Username = "",
-    Fps_Boost = true,
+    Fps_Boost = false,
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bf88f8790b3e6c196d51b59dc600c9ee.lua"))()
+
+wait(5)
+script_key = "xrGpcexETYzPSOWiRKPMIEgecwcFUqEi";
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
