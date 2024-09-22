@@ -10,7 +10,7 @@ getgenv().Config = {
     ["Webhook"] = {
         ["HugeURL"] = "https://discord.com/api/webhooks/1259840141891993693/p7HOwN5nOh1mWRPZ1H5XuScIXBRZ09ctlFKHAKC_ZMbAR_8lf7LjIn0gHElpCaLIKaR8",
         ["StatsURL"] = "https://discord.com/api/webhooks/1287408801695141949/0FPeclZ20tvbQG_q5dIAs9MfSDvkrklL0eGN86JvK7dErVvXTdrNeVWRlumQUKQY88CN",
-        ["UserID"] = "everyone",
+        ["UserID"] = "807267031929716776",
         ["SendEvery"] = 5 -- In Minutes
     },
     ["Misc"] = {
