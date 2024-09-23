@@ -16,12 +16,12 @@ getgenv().Config = {
     ["Misc"] = {
         ["AutoHatch"] = true,
         ["AutoDaycare"] = false,
-        ["UltraFPS"] = true,
+        ["UltraFPS"] = false,
     },
     ["Elemental"] = {
         ["AutoBuyUltraCubes"] = true,
         ["AutoTrainerQuests"] = true,
-        ["AutoFarmChest"] = true,
+        ["AutoFarmChest"] = false,
     }
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2bdebaf848a6be382ed338dad329aaf2.lua"))()
