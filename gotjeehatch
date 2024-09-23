@@ -1,18 +1,26 @@
 wait(5)
-getgenv().KiTTYWARE_ElementalWorld = {
-    Catch_Huges = true,
-    Complete_Trainer_Quests = false,
-
-    Auto_Cube_Merchant = true,
-
-    Hatch_Last_Egg = false,
-    Farm_Last_Zone = false,
+getgenv().KiTTYWARE_Elemental = {
+    Farm_Normal_Breakables = true,
+    Farm_Special_Breakables = false, -- Farm Special Breakables like the Big Chests
     Pets_Per_Breakable = 2,
 
-    discord_Webhook = "https://discord.com/api/webhooks/1259840141891993693/p7HOwN5nOh1mWRPZ1H5XuScIXBRZ09ctlFKHAKC_ZMbAR_8lf7LjIn0gHElpCaLIKaR8",
-    discord_UserID = "553704948563705865",
-    mail_Enabled = false, -- WARN: 1% chance to donate to KW devs <3
-    mail_Username = "",
+    Egg_Number = 241,
+    Auto_Hatch = true,
+    Auto_Mail_Huges = false,
+    Auto_Mail_Username = "",
+
+    Only_Catch_Huges = false, -- If false will look for Huges, then Quest-Pets, then Easiest/Highest % Chance
+    Auto_Catch_Pets = true,
+    Auto_Cube_Merchant = true,
+
+    Discord_UserID = "",
+    Discord_WebhookUrl = "",
     Fps_Boost = false,
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bf88f8790b3e6c196d51b59dc600c9ee.lua"))()
+
+script_key = "xrGpcexETYzPSOWiRKPMIEgecwcFUqEi";
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b2d2d7d3e5cbec16ec501a759f3830ce.lua"))()
+
+wait(15)
+script_key = "xrGpcexETYzPSOWiRKPMIEgecwcFUqEi";
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
