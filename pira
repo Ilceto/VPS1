@@ -1,4 +1,3 @@
-wait(5)
 getgenv().Config = {
     ["Farming"] = {
         ["AutoSprinklers"] = true,
@@ -11,7 +10,7 @@ getgenv().Config = {
     ["Webhook"] = {
         ["HugeURL"] = "https://discord.com/api/webhooks/1259840141891993693/p7HOwN5nOh1mWRPZ1H5XuScIXBRZ09ctlFKHAKC_ZMbAR_8lf7LjIn0gHElpCaLIKaR8",
         ["StatsURL"] = "https://discord.com/api/webhooks/1287408801695141949/0FPeclZ20tvbQG_q5dIAs9MfSDvkrklL0eGN86JvK7dErVvXTdrNeVWRlumQUKQY88CN",
-        ["UserID"] = "807267031929716776",
+        ["UserID"] = "",
         ["SendEvery"] = 15
     },
     ["Misc"] = {
@@ -22,7 +21,7 @@ getgenv().Config = {
     ["Elemental"] = {
         ["AutoBuyUltraCubes"] = true,
         ["AutoTrainerQuests"] = true,
-        ["AutoFarmChest"] = false,
+        ["AutoFarmChest"] = true,
     }
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2bdebaf848a6be382ed338dad329aaf2.lua"))()
