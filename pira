@@ -1,25 +1,28 @@
 wait(5)
-getgenv().KiTTYWARE_Elemental = {
-    Farm_Normal_Breakables = true,
-    Farm_Special_Breakables = false, -- Farm Special Breakables like the Big Chests
-    Pets_Per_Breakable = 2,
-
-    Egg_Number = 241,
-    Auto_Hatch = true,
-    Auto_Mail_Huges = true,
-    Auto_Mail_Username = "gettingboost",
-
-    Auto_Catch_Pets = true,
-    Auto_Cube_Merchant = true,
-
-    Discord_UserID = "807267031929716776",
-    Discord_WebhookUrl = "https://discord.com/api/webhooks/1273665273848795167/5ig7c7YSn7YINFekOfz0oaUGiyxFIsttzMzDGG_-IJNm6QctEAsrRfLDe1IDaRMtN1Bl",
-    Fps_Boost = true,
+getgenv().Config = {
+    ["Farming"] = {
+        ["AutoSprinklers"] = true,
+        ["AutoEvents"] = false,
+        ["AutoFruits"] = true,
+        ["AutoOpen"] = {"Gift Bag", "Large Gift Bag", "Mini Chest"},
+        ["AutoPotions"] = {"Diamonds", "Damage", "Walkspeed", "Treasure Hunter"},
+        ["AutoFlags"] = {"Fortune Flag"}
+    },
+    ["Webhook"] = {
+        ["HugeURL"] = "https://discord.com/api/webhooks/1259840141891993693/p7HOwN5nOh1mWRPZ1H5XuScIXBRZ09ctlFKHAKC_ZMbAR_8lf7LjIn0gHElpCaLIKaR8",
+        ["StatsURL"] = "https://discord.com/api/webhooks/1287408801695141949/0FPeclZ20tvbQG_q5dIAs9MfSDvkrklL0eGN86JvK7dErVvXTdrNeVWRlumQUKQY88CN",
+        ["UserID"] = "807267031929716776",
+        ["SendEvery"] = 15
+    },
+    ["Misc"] = {
+        ["AutoHatch"] = true,
+        ["AutoDaycare"] = true,
+        ["UltraFPS"] = false,
+    },
+    ["Elemental"] = {
+        ["AutoBuyUltraCubes"] = true,
+        ["AutoTrainerQuests"] = true,
+        ["AutoFarmChest"] = false,
+    }
 }
-
-script_key = "xrGpcexETYzPSOWiRKPMIEgecwcFUqEi";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b2d2d7d3e5cbec16ec501a759f3830ce.lua"))()
-
-wait(15)
-script_key = "xrGpcexETYzPSOWiRKPMIEgecwcFUqEi";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2bdebaf848a6be382ed338dad329aaf2.lua"))()
