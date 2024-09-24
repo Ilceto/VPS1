@@ -19,8 +19,8 @@ getgenv().Config = {
         ["UltraFPS"] = true,
     },
     ["Elemental"] = {
-        ["AutoBuyUltraCubes"] = false,
-        ["AutoTrainerQuests"] = false,
+        ["AutoBuyCubes"] = {"Pet Cube", "Ultra Pet Cube"},
+        ["AutoTrainerQuests"] = true,
         ["AutoFarmChest"] = false,
     }
 }
