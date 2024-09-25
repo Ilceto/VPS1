@@ -1,8 +1,23 @@
 wait(5)
 script_key = "xrGpcexETYzPSOWiRKPMIEgecwcFUqEi";
-getgenv().LoadSettings = nil -- Replace 'nil' with Copied Settings if you want to import to other devices
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/23521cea1cff5c0e428954401f395af3.lua"))()
-
-wait(15)
-script_key = "xrGpcexETYzPSOWiRKPMIEgecwcFUqEi";
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
+
+wait(5)
+local save = require(game:GetService("ReplicatedStorage").Library.Client.Save).Get
+local network = require(game:GetService("ReplicatedStorage").Library.Client.Network)
+local ranks = require(game:GetService("ReplicatedStorage").Library.Directory.Ranks)
+
+while task.wait(15) do
+    local totalStars = 0
+    for i,v in ranks do
+        if v["RankNumber"] == save()["Rank"] then
+            for i2, v2 in v["Rewards"] do
+                totalStars += v2["StarsRequired"]
+                if save()["RankStars"] >= totalStars and not save()["RedeemedRankRewards"][tostring(i2)] then
+                    network.Fire("Ranks_ClaimReward", i2)
+                    task.wait(.5)
+                end
+            end
+        end
+    end
+end
