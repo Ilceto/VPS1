@@ -1,26 +1,5 @@
-wait(5)
-getgenv().KiTTYWARE_Elemental = {
-    Farm_Normal_Breakables = true,
-    Farm_Special_Breakables = false, -- Farm Special Breakables like the Big Chests
-    Pets_Per_Breakable = 2,
-
-    Egg_Number = 241,
-    Auto_Hatch = true,
-    Auto_Mail_Huges = false,
-    Auto_Mail_Username = "",
-
-    Only_Catch_Huges = false, -- If false will look for Huges, then Quest-Pets, then Easiest/Highest % Chance
-    Auto_Catch_Pets = false,
-    Auto_Cube_Merchant = true,
-
-    Discord_UserID = "",
-    Discord_WebhookUrl = "",
-    Fps_Boost = false,
-}
-
-script_key = "xrGpcexETYzPSOWiRKPMIEgecwcFUqEi";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b2d2d7d3e5cbec16ec501a759f3830ce.lua"))()
-
-wait(15)
-script_key = "xrGpcexETYzPSOWiRKPMIEgecwcFUqEi";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
+script_key="dTOdrKuLMOyWHpSNWJvsbdkMQZKBFzkI";
+_G.GPROGRESS_MODE = "Hybrid"
+_G.GZONE_TO = 500 -- ONLY increase above 99 to go to world2, only when 100% sure, there is no way back for the "best zone" quests etc. 
+_G.GUSE_FLAGS = {"Hasty Flag"} -- Default: nil, To use specific flags all the time in your
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
