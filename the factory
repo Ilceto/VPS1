@@ -16,7 +16,7 @@ getgenv().Config = {
         { ID = 1186921465, script = 1 }, --hollyeden HUGE HUNTER
         { ID = 1510658382, script = 1 }, --igi HUGE HUNTER
         { ID = 6097355273, script = 1 }, --90 HUGE HUNTER
-        { ID = 6097435798, script = 5 }, --91 HUGE HUNTER
+        { ID = 6097435798, script = 1 }, --91 HUGE HUNTER
         { ID = 886280187, script = 1 }, --sod HUGE HUNTER
         { ID = 7224728490, script = 1 }, --carlitos HUGE HUNTER
         { ID = 7203558317, script = 1 }, --pamela HUGE HUNTER
