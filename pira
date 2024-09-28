@@ -8,9 +8,9 @@ getgenv().Config = {
         ["AutoFlags"] = {"Fortune Flag"}
     },
     ["Webhook"] = {
-        ["HugeURL"] = "https://discord.com/api/webhooks/1259840141891993693/p7HOwN5nOh1mWRPZ1H5XuScIXBRZ09ctlFKHAKC_ZMbAR_8lf7LjIn0gHElpCaLIKaR8",
-        ["StatsURL"] = "https://discord.com/api/webhooks/1287408801695141949/0FPeclZ20tvbQG_q5dIAs9MfSDvkrklL0eGN86JvK7dErVvXTdrNeVWRlumQUKQY88CN",
-        ["UserID"] = "",
+        ["HugeURL"] = "https://discord.com/api/webhooks/1289579158007189609/q4h1mG2gc4O_t6DbA9ydmcCCj_c0ESxHEohNKckEnGmR4XBenI06rh09U_fJFz_nrWIU",
+        ["StatsURL"] = "https://discord.com/api/webhooks/1289579528347451416/F5SpRYCe45gh_W_ovkIG9-S7DLFGFO1kV_RQkYTo_KPGA4k0tmpYnMQvfyyydLBr1G89",
+        ["UserID"] = "807267031929716776",
         ["SendEvery"] = 15
     },
     ["Misc"] = {
