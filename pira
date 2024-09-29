@@ -1,6 +1,7 @@
+wait(4)
 getgenv().Config = {
     ["Farming"] = {
-        ["AutoSprinklers"] = true,
+        ["AutoSprinklers"] = false,
         ["AutoEvents"] = false,
         ["AutoFruits"] = true,
         ["AutoOpen"] = {},
@@ -19,9 +20,9 @@ getgenv().Config = {
         ["UltraFPS"] = false,
     },
     ["Elemental"] = {
-        ["AutoBuyCubes"] = {"Pet Cube", "Ultra Pet Cube"},
+        ["AutoBuyCubes"] = {},
         ["AutoTrainerQuests"] = true,
-        ["AutoFarmChest"] = false,
-    }
+    },
+    ["AutoMailUser"] = ""
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2bdebaf848a6be382ed338dad329aaf2.lua"))()
