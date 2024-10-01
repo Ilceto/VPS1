@@ -10,19 +10,19 @@ getgenv().Config = {
         { ID = 6105235422, script = 1 }, --miguel HUGE HUNTER
         { ID = 6112422472, script = 1 }, --luca HUGE HUNTER
         { ID = 6112429076, script = 1 }, --julia HUGE HUNTER
-        { ID = 51634205, script = 1 }, --alex HUGE HUNTER
-        { ID = 361514650, script = 1 }, --bear HUGE HUNTER
-        { ID = 2210436851, script = 1 }, --reiley HUGE HUNTER
-        { ID = 1186921465, script = 1 }, --hollyeden HUGE HUNTER
-        { ID = 1510658382, script = 1 }, --igi HUGE HUNTER
-        { ID = 7224728490, script = 1 }, --carlitos HUGE HUNTER
-        { ID = 7203558317, script = 1 }, --pamela HUGE HUNTER
-        { ID = 2630502250, script = 1 }, --dario HUGE HUNTER
-        { ID = 6097355273, script = 1 }, --90 HUGE HUNTER
-        { ID = 6097435798, script = 1 }, --91 HUGE HUNTER
-        { ID = 886280187, script = 1 }, --sod HUGE HUNTER
-        { ID = 7203616989, script = 1 }, --s0mcs
-        { ID = 7205993390, script = 1 },  --sommer
+        { ID = 51634205, script = 5 }, --alex HUGE HUNTER
+        { ID = 361514650, script = 5 }, --bear HUGE HUNTER
+        { ID = 2210436851, script = 5 }, --reiley HUGE HUNTER
+        { ID = 1186921465, script = 5 }, --hollyeden HUGE HUNTER
+        { ID = 1510658382, script = 5 }, --igi HUGE HUNTER
+        { ID = 7224728490, script = 5 }, --carlitos HUGE HUNTER
+        { ID = 7203558317, script = 5 }, --pamela HUGE HUNTER
+        { ID = 2630502250, script = 5 }, --dario HUGE HUNTER
+        { ID = 6097355273, script = 5 }, --90 HUGE HUNTER
+        { ID = 6097435798, script = 5 }, --91 HUGE HUNTER
+        { ID = 886280187, script = 5 }, --sod HUGE HUNTER
+        { ID = 7203616989, script = 5 }, --s0mcs
+        { ID = 7205993390, script = 5 },  --sommer
         { ID = 3876077785, script = 2 }, --alycia
         { ID = 4946947747, script = 2 }, --314
         { ID = 4947239506, script = 2 }, --315
