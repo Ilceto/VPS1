@@ -24,7 +24,7 @@ getgenv().Config = {
         { ID = 7203616989, script = 5 }, --s0mcs
         { ID = 7205993390, script = 5 },  --sommer
         { ID = 3876077785, script = 5 }, --alycia
-        { ID = 4946947747, script = 2 }, --314
+        { ID = 4946947747, script = 5 }, --314
         { ID = 4947239506, script = 2 }, --315
         { ID = 4953261201, script = 2 }, --316
         { ID = 4954522154, script = 2 },  --317
