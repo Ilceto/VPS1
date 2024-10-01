@@ -1,9 +1,6 @@
-wait(4)
 getgenv().Config = {
     ["Farming"] = {
-        ["AutoSprinklers"] = false,
-        ["AutoEvents"] = false,
-        ["AutoFruits"] = true,
+        ["AutoEvents"] = {"Party Box"},
         ["AutoOpen"] = {},
         ["AutoPotions"] = {"Diamonds", "Damage", "Walkspeed", "Treasure Hunter"},
         ["AutoFlags"] = {"Fortune Flag"}
@@ -15,13 +12,15 @@ getgenv().Config = {
         ["SendEvery"] = 15
     },
     ["Misc"] = {
-        ["AutoHatch"] = true,
         ["AutoDaycare"] = true,
         ["UltraFPS"] = false,
+        ["AutoBuyAllSlots"] = false,
+        ["EquipEnchants"] = {},
     },
     ["Elemental"] = {
         ["AutoBuyCubes"] = {},
         ["AutoTrainerQuests"] = true,
+        ["AutoFarmChest"] = false,
     },
     ["AutoMailUser"] = ""
 }
