@@ -1,1 +1,49 @@
+local Save = require(game:GetService("ReplicatedStorage").Library.Client.Save)
 
+local Inventory = Save.Get()["Inventory"]
+local elementalGiftCount = 0
+local giftUID = nil
+
+-- Count the total "Elemental Gift" items
+for key, item in pairs(Inventory) do
+    if typeof(item) == "table" then
+        for subKey, subItem in pairs(item) do
+            if subItem.id == "Elemental Gift" then
+                elementalGiftCount = elementalGiftCount + subItem._am
+            end
+        end
+    end
+end
+print("Total Elemental Gift items: " .. elementalGiftCount)
+for Class, Inv in pairs(Inventory) do
+    if Class == "Lootbox" then  -- Assuming "Lootbox" is the correct class for the item
+        for uid, Item in pairs(Inv) do
+            if Item.id == "Elemental Gift" then  -- Check if the item is "Elemental Gift"
+                giftUID = uid  -- Store the UID
+                print("Elemental Gift UID found:", giftUID)
+                break  -- Exit the loop once the Elemental Gift UID is found
+            end
+        end
+    end
+end
+
+-- Condition to send mail if "Elemental Gift" count exceeds 100
+local amount = 200  -- Threshold to check
+local username = "gettingboost"  -- Replace with the target player's username
+
+if giftUID and elementalGiftCount > amount then
+    local args = {
+        [1] = username,
+        [2] = "Here you go buddy, take these gifts!",
+        [3] = "Lootbox",  -- Assuming the class is "Lootbox"
+        [4] = giftUID,  -- Send the Elemental Gift UID
+        [5] = amount  -- The amount to send (set to 100 or any value you prefer)
+    }
+
+    print("Invoking Server with args:", unpack(args))
+
+    -- Invoke the server to send the mail
+    game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Mailbox: Send"):InvokeServer(unpack(args))
+else
+    warn("Insufficient Elemental Gifts or UID not found")
+end
