@@ -1,15 +1,15 @@
 wait(5)
 getgenv().Config = {
     Accounts = {
-        { ID = 6112417579, script = 1 }, --riste HUGE HUNTER
-        { ID = 6105231042, script = 1 }, --benjamin HUGE HUNTER
-        { ID = 6112424675, script = 1 }, --sarah HUGE HUNTER
-        { ID = 4032909868, script = 1 }, --313 HUGE HUNTER/SUPER DROPS
-        { ID = 6102662471, script = 1 }, --valerie HUGE HUNTER
-        { ID = 6117352981, script = 1 }, --henry HUGE HUNTER
-        { ID = 6105235422, script = 1 }, --miguel HUGE HUNTER
-        { ID = 6112422472, script = 1 }, --luca HUGE HUNTER
-        { ID = 6112429076, script = 1 }, --julia HUGE HUNTER
+        { ID = 6112417579, script = 5 }, --riste HUGE HUNTER
+        { ID = 6105231042, script = 5 }, --benjamin HUGE HUNTER
+        { ID = 6112424675, script = 5 }, --sarah HUGE HUNTER
+        { ID = 4032909868, script = 5 }, --313 HUGE HUNTER/SUPER DROPS
+        { ID = 6102662471, script = 5 }, --valerie HUGE HUNTER
+        { ID = 6117352981, script = 5 }, --henry HUGE HUNTER
+        { ID = 6105235422, script = 5 }, --miguel HUGE HUNTER
+        { ID = 6112422472, script = 5 }, --luca HUGE HUNTER
+        { ID = 6112429076, script = 5 }, --julia HUGE HUNTER
         { ID = 51634205, script = 5 }, --alex HUGE HUNTER
         { ID = 361514650, script = 5 }, --bear HUGE HUNTER
         { ID = 2210436851, script = 5 }, --reiley HUGE HUNTER
