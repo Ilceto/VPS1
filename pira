@@ -6,7 +6,7 @@ getgenv().Config = {
         ["AutoFlags"] = {"Fortune Flag"}
     },
     ["Webhook"] = {
-        ["HugeURL"] = "https://discord.com/api/webhooks/1289579158007189609/q4h1mG2gc4O_t6DbA9ydmcCCj_c0ESxHEohNKckEnGmR4XBenI06rh09U_fJFz_nrWIU",
+        ["HugeURL"] = "https://discord.com/api/webhooks/1289518389911490601/2ZTyB52X6jKr7B5M4LxM0QWy4Md5EDvWSBzVK7CCF1ixqc6TPgvIiWWoPqtT0ia0dM7s",
         ["StatsURL"] = "https://discord.com/api/webhooks/1289579528347451416/F5SpRYCe45gh_W_ovkIG9-S7DLFGFO1kV_RQkYTo_KPGA4k0tmpYnMQvfyyydLBr1G89",
         ["UserID"] = "807267031929716776",
         ["SendEvery"] = 15
