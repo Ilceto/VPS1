@@ -19,7 +19,7 @@ getgenv().Config = {
         ["EquipEnchants"] = {},
     },
     ["Elemental"] = {
-        ["AutoBuyCubes"] = {"Ultra Pet Cube"},
+        ["AutoBuyCubes"] = {},
         ["AutoTrainerQuests"] = true,
         ["AutoFarmChest"] = false,
     },
