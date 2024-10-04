@@ -2,7 +2,7 @@ wait(2)
 getgenv().Config = {
     ["Farming"] = {
         ["AutoEvents"] = {"Party Box"},
-        ["AutoOpen"] = {},
+        ["AutoOpen"] = {"Gift Bag", "Large Gift Bag"},
         ["AutoPotions"] = {"Diamonds", "Damage", "Walkspeed", "Treasure Hunter"},
         ["AutoFlags"] = {"Fortune Flag"}
     },
