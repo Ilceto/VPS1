@@ -10,11 +10,11 @@ getgenv().Config = {
         ["HugeURL"] = "https://discord.com/api/webhooks/1289518389911490601/2ZTyB52X6jKr7B5M4LxM0QWy4Md5EDvWSBzVK7CCF1ixqc6TPgvIiWWoPqtT0ia0dM7s",
         ["StatsURL"] = "https://discord.com/api/webhooks/1289579528347451416/F5SpRYCe45gh_W_ovkIG9-S7DLFGFO1kV_RQkYTo_KPGA4k0tmpYnMQvfyyydLBr1G89",
         ["UserID"] = "807267031929716776",
-        ["SendEvery"] = 30
+        ["SendEvery"] = 60
     },
     ["Misc"] = {
         ["AutoDaycare"] = true,
-        ["UltraFPS"] = false,
+        ["UltraFPS"] = true,
         ["AutoBuyAllSlots"] = false,
         ["EquipEnchants"] = {},
     },
