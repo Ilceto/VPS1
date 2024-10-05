@@ -14,7 +14,7 @@ getgenv().Config = {
     },
     ["Misc"] = {
         ["AutoDaycare"] = true,
-        ["UltraFPS"] = false,
+        ["UltraFPS"] = true,
         ["AutoBuyAllSlots"] = false,
         ["EquipEnchants"] = {},
     },
