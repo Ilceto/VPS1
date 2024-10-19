@@ -1,5 +1,10 @@
 script_key="dTOdrKuLMOyWHpSNWJvsbdkMQZKBFzkI";
-_G.GPROGRESS_MODE = "Hybrid"
-_G.GZONE_TO = 500 -- ONLY increase above 99 to go to world2, only when 100% sure, there is no way back for the "best zone" quests etc. 
-_G.GUSE_FLAGS = {"Hasty Flag"} -- Default: nil, To use specific flags all the time in your
+_G.GDO_HALLOWEEN_WORLD = true
+_G.GUSE_FLAGS = {"Fortune Flag"} -- Default: nil, To use specific flags all the time in your
+_G.GFRUITS = {"Apple","Banana","Orange","Rainbow","Watermelon"},
+_G.GUSE_SPRINKLERS = true
+_G.GUSE_ULTIMATES = {"Nightmare"}
+_G.GHOLD_GIFTS = false  -- true/false, only set true when you don't want it to use consume your giftbags
+_G.GHOLD_BUNDLES = false -- true/false, only set true if you don't want it to use your bundles.
+_G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1100134800850944042/UjE4bG2aVyxXUUhilzLbrtBPK0ZoRy570eCcfYk50Q0zs4tKgnbRArvAHprZgMyCvmhO"
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
