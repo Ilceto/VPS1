@@ -61,7 +61,7 @@ getgenv().Settings = {
         Webhook = {
             ["URL"] = "https://discord.com/api/webhooks/1297508377651576905/4zKt-c1geIWG0PvNy93wxlp42fmzW5lWBooET8wk9dXmFHuhIQTYnwLGyQn2T1EfPLWU",
             ["Send Embeds"] = true,
-            ["Remove Username"] = true,
+            ["Remove Username"] = false,
         },
         StopParams = {
             ["Item Runout"] = false,
@@ -72,7 +72,7 @@ getgenv().Settings = {
         Other = {
             ["Auto Accept Mail"] = true,
             ["Always Try Adding Listings"] = true,
-            ["Never Join Friendslist"] = true,
+            ["Never Join Friendslist"] = false,
         },
     },
     
