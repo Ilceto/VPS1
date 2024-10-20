@@ -1,7 +1,7 @@
 script_key = "wNFdViAueaInWjgRHUAIevkPsENKjWtk"
 getgenv().Settings = {
     Sniper = {
-        Active = true,
+        Active = false,
         Items = {
             --// Example Settings showcasing features.
             SearchTerminal = {
