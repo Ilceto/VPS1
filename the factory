@@ -1,26 +1,26 @@
 wait(5)
 getgenv().Config = {
     Accounts = {
-        { ID = 6112417579, script = 2 }, --riste HUGE HUNTER
-        { ID = 6105231042, script = 2 }, --benjamin HUGE HUNTER
-        { ID = 6112424675, script = 2 }, --sarah HUGE HUNTER
+        { ID = 6112417579, script = 5 }, --riste HUGE HUNTER
+        { ID = 6105231042, script = 5 }, --benjamin HUGE HUNTER
+        { ID = 6112424675, script = 5 }, --sarah HUGE HUNTER
         { ID = 4032909868, script = 2 }, --313 HUGE HUNTER/SUPER DROPS
-        { ID = 6102662471, script = 2 }, --valerie HUGE HUNTER
-        { ID = 6117352981, script = 2 }, --henry HUGE HUNTER
-        { ID = 6105235422, script = 2 }, --miguel HUGE HUNTER
-        { ID = 6112422472, script = 2 }, --luca HUGE HUNTER
-        { ID = 6112429076, script = 2 }, --julia HUGE HUNTER
-        { ID = 51634205, script = 2 }, --alex HUGE HUNTER
-        { ID = 361514650, script = 2 }, --bear HUGE HUNTER
-        { ID = 2210436851, script = 2 }, --reiley HUGE HUNTER
-        { ID = 1186921465, script = 2 }, --hollyeden HUGE HUNTER
-        { ID = 1510658382, script = 2 }, --igi HUGE HUNTER
-        { ID = 7224728490, script = 2 }, --carlitos HUGE HUNTER
-        { ID = 7203558317, script = 2 }, --pamela HUGE HUNTER
-        { ID = 2630502250, script = 2 }, --dario HUGE HUNTER
+        { ID = 6102662471, script = 5 }, --valerie HUGE HUNTER
+        { ID = 6117352981, script = 5 }, --henry HUGE HUNTER
+        { ID = 6105235422, script = 5 }, --miguel HUGE HUNTER
+        { ID = 6112422472, script = 5 }, --luca HUGE HUNTER
+        { ID = 6112429076, script = 5 }, --julia HUGE HUNTER
+        { ID = 51634205, script = 5 }, --alex HUGE HUNTER
+        { ID = 361514650, script = 5 }, --bear HUGE HUNTER
+        { ID = 2210436851, script = 5 }, --reiley HUGE HUNTER
+        { ID = 1186921465, script = 5 }, --hollyeden HUGE HUNTER
+        { ID = 1510658382, script = 5 }, --igi HUGE HUNTER
+        { ID = 7224728490, script = 5 }, --carlitos HUGE HUNTER
+        { ID = 7203558317, script = 5 }, --pamela HUGE HUNTER
+        { ID = 2630502250, script = 5 }, --dario HUGE HUNTER
         { ID = 6097355273, script = 2 }, --90 HUGE HUNTER
-        { ID = 6097435798, script = 2 }, --91 HUGE HUNTER
-        { ID = 886280187, script = 2 }, --sod HUGE HUNTER
+        { ID = 6097435798, script = 5 }, --91 HUGE HUNTER
+        { ID = 886280187, script = 5 }, --sod HUGE HUNTER
         { ID = 7203616989, script = 5 }, --s0mcs
         { ID = 7205993390, script = 5 },  --sommer
         { ID = 3876077785, script = 5 }, --alycia
