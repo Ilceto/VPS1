@@ -1,1 +1,81 @@
+script_key = "wNFdViAueaInWjgRHUAIevkPsENKjWtk"
+getgenv().Settings = {
+    Sniper = {
+        Active = true,
+        Items = {
+            --// Example Settings showcasing features.
+            SearchTerminal = {
+                [[ Terminal doesn't support custom keywords like "All Huges". ]],
 
+                ["Pet Cube"] = {Class = "Misc", Price = "1000"},
+              --  ["Coins 5"] = {Class = "Potion", Price = 1},
+              --  ["Shiny Apple"] = {Class = "Fruit", Price = "+5%"},
+            },
+
+            
+           -- ["All Huges"] = {Class = "Pet", Price = "80%", DetectManipulation = true, AllTypes = true},
+           -- ["Rainbow All Huges"] = {Class = "Pet", Price = 20000000},
+           -- ["All Titanics"] = {Class = "Pet", Price = "30%", UseCosmicValues = true, AllTypes = true},
+           -- ["All Items"] = {Class = "Misc", Price = "20%", AllTiers = true},
+           -- ["All Exclusives"] = {Class = "Pet", Price = 500000},
+           -- ["Huge Fancy Axolotl"] = {Class = "Pet", Price = "+10%"},
+           -- ["Lightning 1"] = {Class = "Charm", Price = "+2%"},
+        },
+        Serverhop = {
+            ["Switch Servers"] = true,
+            ["Teleport Delay (s)"] = 3,
+            ["Add Pro Plaza Lobbies"] = true,
+            ["Constant Terminal Searching"] = true,
+            ["Terminal Searches per Item"] = 3,
+            ["Save # Servers"] = 10,
+        },
+        Webhook = {
+            ["URL"] = "https://discord.com/api/webhooks/1260250628085780500/FeEKaelxdFJdcVolsf5_LGaumNO7ciqPnk3G7cIjOk8aeRWz0pjL-SoFIHZ1VwPmsg3D",
+            ["Send Embeds"] = true,
+            ["Remove Username"] = true,
+            ["Ping on Huges 'n Titanics"] = true,
+            ["Global Snipes"] = true,
+        },
+        StopParams = {
+            ["Limits Reached"] = false,
+            ["Diamonds Hit: 250k"] = true,
+            ["60 Minutes"] = false,
+            ["Switch To Selling"] = false,
+        },
+    },
+
+    Seller = {
+        Active = false,
+        Items = {
+            ["Huge Electric Penguin"] = {Class = "Pet", Price = 35010000},
+            ["Elemental Gift"] = {Class = "Misc", Price = "+10%"},
+            ["Charm Stone"] = {Class = "Misc", Price = "+10%"},
+         --   ["All Huges"] = {Class = "Pet", Price = "-5%"},
+         --   ["All Items"] = {Class = "Lootbox", Price = -5000},
+        },
+        Serverhop = {
+            ["Switch Servers"] = true,
+            ["Teleport Delay (m)"] = 15,
+            ["Add Pro Plaza Lobbies"] = true,
+        },
+        Webhook = {
+            ["URL"] = "https://discord.com/api/webhooks/1297508377651576905/4zKt-c1geIWG0PvNy93wxlp42fmzW5lWBooET8wk9dXmFHuhIQTYnwLGyQn2T1EfPLWU",
+            ["Send Embeds"] = true,
+            ["Remove Username"] = true,
+        },
+        StopParams = {
+            ["Item Runout"] = false,
+            ["Diamonds Hit: 1b"] = false,
+            ["60 Minutes"] = false,
+            ["Switch To Sniping"] = false,
+        },
+        Other = {
+            ["Auto Accept Mail"] = true,
+            ["Always Try Adding Listings"] = true,
+            ["Never Join Friendslist"] = true,
+        },
+    },
+    
+    [[ Thank you for using System Exodus <3! ]]
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/60a293774110e918789cddc0e20be048.lua"))()
