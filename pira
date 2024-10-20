@@ -23,6 +23,6 @@ getgenv().Config = {
         ["AutoTrainerQuests"] = true,
         ["AutoFarmChest"] = false,
     },
-    ["AutoMailUser"] = "alycia_158"
+    ["AutoMailUser"] = "gettingboost"
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2bdebaf848a6be382ed338dad329aaf2.lua"))()
