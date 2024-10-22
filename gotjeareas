@@ -2,6 +2,7 @@ script_key="dTOdrKuLMOyWHpSNWJvsbdkMQZKBFzkI";
 _G.GGFX_MODE = 1  -- number,   1 = REMOVE_TEXTURES,2 = LOWER_TEXTURES_QUALITY, 3 = NORMAL
 _G.GZONE_TO = 999
 _G.GDO_HALLOWEEN_WORLD = true
+_G.GCONVERT_CANDY_CORN = false
 _G.GMAX_EGG_SLOTS = 99 -- number, egg slots to buy, valid options are 1-99
 _G.GMAX_EQUIP_SLOTS = 99 -- number, pet slots to buy, , valid options are 1-99
 _G.GIGNORE_VIP = true -- only put to true if you have VIP & for some reason want to stop the script from joining vip zone for diamond quests
