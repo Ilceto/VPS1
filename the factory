@@ -1,4 +1,4 @@
-wait(5)
+wait(1)
 getgenv().Config = {
     Accounts = {
         { ID = 6112417579, script = 5 }, --riste HUGE HUNTER
