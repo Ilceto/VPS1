@@ -15,16 +15,16 @@ getgenv().Config = {
         { ID = 2210436851, script = 5 }, --reiley HUGE HUNTER
         { ID = 1186921465, script = 5 }, --hollyeden HUGE HUNTER
         { ID = 1510658382, script = 5 }, --igi HUGE HUNTER
-        { ID = 7224728490, script = 4 }, --carlitos HUGE HUNTER
+        { ID = 7224728490, script = 5 }, --carlitos HUGE HUNTER
         { ID = 7203558317, script = 5 }, --pamela HUGE HUNTER
         { ID = 2630502250, script = 5 }, --dario HUGE HUNTER
         { ID = 6097355273, script = 5 }, --90 HUGE HUNTER
         { ID = 6097435798, script = 5 }, --91 HUGE HUNTER
         { ID = 886280187, script = 5 }, --sod HUGE HUNTER
-        { ID = 7203616989, script = 4 }, --s0mcs
-        { ID = 7205993390, script = 4 },  --sommer
-        { ID = 3876077785, script = 4 }, --alycia
-        { ID = 4946947747, script = 4 }, --314
+        { ID = 7203616989, script = 5 }, --s0mcs
+        { ID = 7205993390, script = 5 },  --sommer
+        { ID = 3876077785, script = 5 }, --alycia
+        { ID = 4946947747, script = 5 }, --314
         { ID = 4947239506, script = 2 }, --315
         { ID = 4953261201, script = 2 }, --316
         { ID = 4954522154, script = 2 },  --317
@@ -35,7 +35,7 @@ getgenv().Config = {
         ["Script 2"] = "https://raw.githubusercontent.com/Ilceto/kitkats/refs/heads/main/gotjeehatch", -- GOTJEE
         ["Script 3"] = "https://raw.githubusercontent.com/Ilceto/kitkats/main/antiafk", --ANTI AFK
         ["Script 4"] = "https://raw.githubusercontent.com/Ilceto/VPS1/refs/heads/main/backroom", --Alpha Ui
-        ["Script 5"] = "https://raw.githubusercontent.com/Ilceto/VPS1/refs/heads/main/backroom", --90/91
+        ["Script 5"] = "https://raw.githubusercontent.com/Ilceto/kitkats/main/kittykats", --90/91
     }
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Pauleeeee1/RobloxManagerStuff/main/Multi%20Execute"))()
