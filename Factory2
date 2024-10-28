@@ -1,0 +1,48 @@
+wait(1)
+getgenv().Config = {
+    Accounts = {
+        { ID = 7468476310, script = 1 }, --Macedonia1
+        { ID = 7468492915, script = 1 }, --Macedonia2
+        { ID = 7468495083, script = 1 }, --Macedonia3
+        { ID = 7468517267, script = 1 },  --Macedonia4
+        { ID = 7468526961, script = 1 }, --Macedonia5
+        { ID = 7468530353, script = 1 }, --Macedonia6
+        { ID = 7468533731, script = 1 }, --Macedonia7
+        { ID = 7468549388, script = 1 },  --Macedonia8
+        { ID = 7468553391, script = 1 }, --Macedonia9
+        { ID = 7468554559, script = 1 }, --Macedonia10
+        { ID = 7469537400, script = 1 }, --Lollo1
+        { ID = 7469538344, script = 1 }, --Lollo2
+        { ID = 7469536736, script = 1 }, --Lollo3
+        { ID = 7469541377, script = 1 }, --Lollo4
+        { ID = 7469541562, script = 1 }, --Lollo5
+        { ID = 7469671873, script = 1 }, --Lollo6
+        { ID = 7469672893, script = 1 }, --Lollo7
+        { ID = 7469676569, script = 1 }, --Lollo8
+        { ID = 7469686088, script = 1 }, --Lollo9
+        { ID = 7469689409, script = 1 }, --Lollo10
+        { ID = 7469745793, script = 1 }, --Proteine1
+        { ID = 7469747432, script = 1 }, --Proteine2
+        { ID = 7469748074, script = 1 }, --Proteine3
+        { ID = 7469748478, script = 1 }, --Proteine4
+        { ID = 7469750538, script = 1 }, --Proteine5
+        { ID = 7469751324, script = 1 }, --Proteine6
+        { ID = 7469751100, script = 1 }, --Proteine7
+        { ID = 7469752618, script = 1 }, --Proteine8
+        { ID = 7469752793, script = 1 }, --Proteine9
+        { ID = 7469755512, script = 1 }, --Proteine10
+        { ID = 1, script = 1 },
+        { ID = 1, script = 1 },
+        { ID = 1, script = 1 },
+        { ID = 1, script = 1 },
+        { ID = 1, script = 1 },
+    },
+    Scripts = { 
+        -- Please make it a raw link 
+        ["Script 1"] = "Raw Link",
+        ["Script 2"] = "Raw Link",
+        ["Script 3"] = "Raw Link",
+        ["Script 4"] = "Raw Link",
+    }
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Pauleeeee1/RobloxManagerStuff/main/Multi%20Execute"))()
