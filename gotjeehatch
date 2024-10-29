@@ -1,7 +1,7 @@
 script_key="dTOdrKuLMOyWHpSNWJvsbdkMQZKBFzkI";
 _G.GGFX_MODE = 2  -- number,   1 = REMOVE_TEXTURES,2 = LOWER_TEXTURES_QUALITY, 3 = NORMAL
-_G.GZONE_TO = 999
 _G.GDO_HALLOWEEN_WORLD = true
+_G.GZONE_TO = 999
 _G.GCONVERT_CANDY_CORN = false
 _G.GFRUITS = {"Watermelon","Apple","Rainbow","Pineapple","Orange","Banana"}
 _G.GHOLD_GIFTS = false  -- true/false, only set true when you don't want it to use consume your giftbags
