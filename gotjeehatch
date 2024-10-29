@@ -7,8 +7,7 @@ _G.GFRUITS = {"Watermelon","Apple","Rainbow","Pineapple","Orange","Banana"}
 _G.GHOLD_GIFTS = false  -- true/false, only set true when you don't want it to use consume your giftbags
 _G.GHOLD_BUNDLES = false -- true/false, only set true if you don't want it to use your bundles.
 _G.GENCHANTS = {} 
-_G.GHATCH_GOLDEN_EGGS = true
-_G.GHATCH_SPEED_MS = 1400 -- example: put a fixed hatch speed of 2.3s
+_G.GHATCH_GOLDEN_EGGS = false
 _G.GMAIL_RECEIVERS = {"gettingboost"}   -- where to mail huges, you can remove 1 of them like just keep {"accountname1"} or you can add more, it takes one random from the list.
 _G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1289518389911490601/2ZTyB52X6jKr7B5M4LxM0QWy4Md5EDvWSBzVK7CCF1ixqc6TPgvIiWWoPqtT0ia0dM7s"
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
