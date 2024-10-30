@@ -31,10 +31,10 @@ getgenv().Config = {
         { ID = 7469752618, script = 1 }, --Proteine8
         { ID = 7469752793, script = 1 }, --Proteine9
         { ID = 7469755512, script = 1 }, --Proteine10
-        { ID = 7516830393, script = 2 }, --mrs
-        { ID = 7516825655, script = 2 }, --mr
-        { ID = 7516808491, script = 2 }, --scott
-        { ID = 7516803513, script = 2 }, --santa
+        { ID = 7516830393, script = 1 }, --mrs
+        { ID = 7516825655, script = 1 }, --mr
+        { ID = 7516808491, script = 1 }, --scott
+        { ID = 7516803513, script = 1 }, --santa
         { ID = 7516844472, script = 2 }, --salvini
         { ID = 7516838946, script = 2 }, --ita
         { ID = 7516788015, script = 2 }, --reyna
