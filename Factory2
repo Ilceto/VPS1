@@ -37,10 +37,10 @@ getgenv().Config = {
         { ID = 7516803513, script = 1 }, --santa
         { ID = 7516844472, script = 1 }, --salvini
         { ID = 7516838946, script = 1 }, --ita
-        { ID = 7516788015, script = 2 }, --reyna
-        { ID = 7516791657, script = 2 }, --jett
-        { ID = 7516770584, script = 2 }, --apple
-        { ID = 7516761641, script = 2 }, --orange
+        { ID = 7516788015, script = 1 }, --reyna
+        { ID = 7516791657, script = 1 }, --jett
+        { ID = 7516770584, script = 1 }, --apple
+        { ID = 7516761641, script = 1 }, --orange
     },
     Scripts = { 
         -- Please make it a raw link 
