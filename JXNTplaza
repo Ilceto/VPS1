@@ -49,7 +49,7 @@ getgenv().Settings = {
         Items = {
             ["Huge Electric Penguin"] = {Class = "Pet", Price = 35000000},
             ["Golden Huge Glowy the Ghost"] = {Class = "Pet", Price = 40000000},
-            ["Huge Glowy the Ghost"] = {Class = "Pet", Price = 35000000},
+            ["Huge Glowy the Ghost"] = {Class = "Pet", Price = 35500000},
           --  ["Huge Kangaroo"] = {Class = "Pet", Price = 34500000},
             ["Elemental Gift"] = {Class = "Misc", Price = "+35%"},
             ["Charm Stone"] = {Class = "Misc", Price = "+20%"},
