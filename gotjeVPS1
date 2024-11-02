@@ -1,5 +1,5 @@
 script_key="dTOdrKuLMOyWHpSNWJvsbdkMQZKBFzkI";
-_G.GGFX_MODE = 1  -- number,   1 = REMOVE_TEXTURES,2 = LOWER_TEXTURES_QUALITY, 3 = NORMAL
+_G.GGFX_MODE = 2  -- number,   1 = REMOVE_TEXTURES,2 = LOWER_TEXTURES_QUALITY, 3 = NORMAL
 _G.GPROGRESS_MODE = "Hybrid"
 _G.GZONE_TO = 999
 _G.GMAX_EGG_SLOTS = 99 -- number, egg slots to buy, valid options are 1-99
