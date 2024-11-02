@@ -35,7 +35,7 @@ getgenv().Config = {
         ["Script 2"] = "https://raw.githubusercontent.com/Ilceto/kitkats/refs/heads/main/gotjeehatch", -- GOTJEE
         ["Script 3"] = "https://raw.githubusercontent.com/Ilceto/kitkats/main/antiafk", --ANTI AFK
         ["Script 4"] = "https://raw.githubusercontent.com/Ilceto/VPS1/refs/heads/main/backroom", --Alpha Ui
-        ["Script 5"] = "https://raw.githubusercontent.com/Ilceto/VPS1/refs/heads/main/backroom", --90/91
+        ["Script 5"] = "https://raw.githubusercontent.com/Ilceto/VPS1/refs/heads/main/gotjeVPS1", --90/91
     }
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Pauleeeee1/RobloxManagerStuff/main/Multi%20Execute"))()
