@@ -47,10 +47,11 @@ getgenv().Settings = {
     Seller = {
         Active = true,
         Items = {
-            ["Huge Electric Penguin"] = {Class = "Pet", Price = 35000000},
+            ["Huge Electric Penguin"] = {Class = "Pet", Price = 35500000},
             ["Golden Huge Glowy the Ghost"] = {Class = "Pet", Price = 40000000},
-            ["Huge Glowy the Ghost"] = {Class = "Pet", Price = 35500000},
-          --  ["Huge Kangaroo"] = {Class = "Pet", Price = 34500000},
+            ["Huge Glowy the Ghost"] = {Class = "Pet", Price = 3600000},
+            ["Huge Kangaroo"] = {Class = "Pet", Price = 3500000},
+            ["Huge Robber Pug"] = {Class = "Pet", Price = 3500000},
             ["Elemental Gift"] = {Class = "Misc", Price = "+15%"},
             ["Charm Stone"] = {Class = "Misc", Price = "+15%"},
          --   ["All Huges"] = {Class = "Pet", Price = "-5%"},
