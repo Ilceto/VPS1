@@ -6,6 +6,7 @@ _G.GMAX_EQUIP_SLOTS = 99 -- number, pet slots to buy, , valid options are 1-99
 _G.GIGNORE_VIP = true -- only put to true if you have VIP & for some reason want to stop the script from joining vip zone for diamond quests
 _G.GENCHANTS = {"Strong Pets", "Criticals", "Treasure Hunter", "Diamonds"}
 _G.GUSE_SPRINKLERS = true
+_G.GWAIT_AT_GATES_TILL_RANK = 6
 _G.GPOTIONS = {"Coins","Lucky","The Cocktail","Huge","Treasure Hunter","Walkspeed","Diamonds","Damage"} --  potions to auto-use, will use the best tier in inventory, stays under GPOTIONS_MAX_TIER
 _G.GPOTIONS_MAX_TIER = 6 -- Max allowed tier of potions to auto-use
 _G.GUSE_FLAGS = {"Hasty Flag"} -- Default: nil, To use specific flags all the time in your
