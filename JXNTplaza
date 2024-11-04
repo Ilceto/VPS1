@@ -55,7 +55,7 @@ getgenv().Settings = {
             ["Huge Red Panda"] = {Class = "Pet", Price = 35000000},
             ["Elemental Gift"] = {Class = "Misc", Price = "+15%"},
             ["Charm Stone"] = {Class = "Misc", Price = "+15%"},
-         --   ["All Huges"] = {Class = "Pet", Price = "-5%"},
+            ["Crystal Key"] = {Class = "Misc", Price = "+10%"},
          --   ["All Items"] = {Class = "Lootbox", Price = -5000},
         },
         Serverhop = {
