@@ -56,6 +56,7 @@ getgenv().Settings = {
             ["Elemental Gift"] = {Class = "Misc", Price = "+6%"},
             ["Charm Stone"] = {Class = "Misc", Price = "+5%"},
             ["Crystal Key"] = {Class = "Misc", Price = "+10%"},
+            ["Tech Key"] = {Class = "Misc", Price = "18000"},
          --   ["All Items"] = {Class = "Lootbox", Price = -5000},
         },
         Serverhop = {
