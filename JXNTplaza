@@ -53,7 +53,7 @@ getgenv().Settings = {
             ["Huge Kangaroo"] = {Class = "Pet", Price = 35000000},
             ["Huge Robber Pug"] = {Class = "Pet", Price = 35000000},
             ["Huge Red Panda"] = {Class = "Pet", Price = 35000000},
-            ["Elemental Gift"] = {Class = "Misc", Price = "+6%"},
+            ["Elemental Gift"] = {Class = "Misc", Price = "+15%"},
             ["Charm Stone"] = {Class = "Misc", Price = "+5%"},
             ["Crystal Key"] = {Class = "Misc", Price = "+10%"},
             ["Tech Key"] = {Class = "Misc", Price = "18000"},
