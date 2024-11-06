@@ -20,7 +20,7 @@ getgenv().Config = {
     },
     ["Elemental"] = {
         ["AutoBuyCubes"] = {},
-        ["AutoTrainerQuests"] = true,
+        ["AutoTrainerQuests"] = false,
         ["AutoFarmChest"] = false,
     },
     ["AutoMailUser"] = "gettingboost"
