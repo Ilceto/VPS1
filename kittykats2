@@ -1,10 +1,14 @@
 local Network = game:GetService("ReplicatedStorage"):WaitForChild("Network")
 local player = game.Players.LocalPlayer
 local destination = workspace.__THINGS.Instances.LineForHuge.Teleports.Enter
+local LineCmd = require(game.ReplicatedStorage.Library.Client.LineForHugeCmds)
 
 if game.PlaceId ~= 84810042603306 then
     player.Character.HumanoidRootPart.CFrame = destination.CFrame
 end
+
+wait(5)
+game:GetService("ReplicatedStorage").Network.LineForHuge_ToggleAutoCut:InvokeServer()
 
 wait(5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Ilceto/VPS1/refs/heads/main/gotjeVPS2-2"))()
