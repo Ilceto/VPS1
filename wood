@@ -1,9 +1,9 @@
 wait(1)
 getgenv().Settings = {
     Mailing = {
-        ["Huge Trojan Horse"] = {Class = "Pet", Amount = "Max"}
-        ["Golden Huge Trojan Horse"] = {Class = "Pet", Amount = "Max"}
-        ["Rainbow  Huge Trojan Horse"] = {Class = "Pet", Amount = "Max"}
+        ["Huge Trojan Horse"] = {Class = "Pet", Amount = "Max"},
+        ["Golden Huge Trojan Horse"] = {Class = "Pet", Amount = "Max"},
+        ["Rainbow  Huge Trojan Horse"] = {Class = "Pet", Amount = "Max"},
         ["Wooden Gift"] = {Class = "Lootbox", Amount = "Max"},
 --        ["Rainbow Swirl"] = {Class = "Misc", Amount = "Max"},
 --        ["Diamonds"] = {Class = "Currency", Amount = 10000}
