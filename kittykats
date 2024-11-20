@@ -12,24 +12,3 @@ if player and player.Character and player.Character:FindFirstChild("HumanoidRoot
     -- Set the CFrame of the HumanoidRootPart
     player.Character.HumanoidRootPart.CFrame = CFrame.new(6980.53369, 416.241425, -20596.0332, -0.826375067, -1.17252284e-07, 0.563120127, -8.21544859e-08, 1, 8.76577957e-08, -0.563120127, 2.61753765e-08, -0.826375067)
 end
-
-
-wait(1000)
-
--- Ensure the LocalPlayer and Character are available
-local player = game.Players.LocalPlayer
-
-if player and player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
-    -- Set the CFrame of the HumanoidRootPart
-    player.Character.HumanoidRootPart.CFrame = CFrame.new(6980.53369, 416.241425, -20596.0332, -0.826375067, -1.17252284e-07, 0.563120127, -8.21544859e-08, 1, 8.76577957e-08, -0.563120127, 2.61753765e-08, -0.826375067)
-end
-
-wait(3000)
-
--- Ensure the LocalPlayer and Character are available
-local player = game.Players.LocalPlayer
-
-if player and player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
-    -- Set the CFrame of the HumanoidRootPart
-    player.Character.HumanoidRootPart.CFrame = CFrame.new(6980.53369, 416.241425, -20596.0332, -0.826375067, -1.17252284e-07, 0.563120127, -8.21544859e-08, 1, 8.76577957e-08, -0.563120127, 2.61753765e-08, -0.826375067)
-end
