@@ -6,6 +6,12 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d4418
 
 --wait(20)
 
+wait(5)
+getgenv().Device = "yUKynYqLpCuVVuyicLLRSPxfeuyDuj"
+getgenv().ID = "807267031929716776"
+getgenv().Key = "yUKynYqLpCuVVuyicLLRSPxfeuyDuj"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheHayonicDev/track-stuff/refs/heads/main/track-ps99.lua"))()
+
 -- Ensure the LocalPlayer and Character are available
 --local player = game.Players.LocalPlayer
 
