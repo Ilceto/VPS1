@@ -1,0 +1,5 @@
+wait(5)
+getgenv().Device = "yUKynYqLpCuVVuyicLLRSPxfeuyDuj"
+getgenv().ID = "807267031929716776"
+getgenv().Key = "yUKynYqLpCuVVuyicLLRSPxfeuyDuj"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheHayonicDev/track-stuff/refs/heads/main/track-ps99.lua"))()
