@@ -31,7 +31,7 @@ getgenv().Config = {
    },
     Scripts = { 
         -- Please make it a raw link 
-        ["Script 1"] = "https://raw.githubusercontent.com/Ilceto/VPS1/refs/heads/main/wood", --Main Ui
+        ["Script 1"] = "https://raw.githubusercontent.com/Ilceto/VPS1/refs/heads/main/autumn1", --Main Ui
         ["Script 2"] = "https://raw.githubusercontent.com/Ilceto/kitkats/refs/heads/main/gotjeehatch", -- GOTJEE
         ["Script 3"] = "https://raw.githubusercontent.com/Ilceto/kitkats/main/antiafk", --ANTI AFK
         ["Script 4"] = "https://raw.githubusercontent.com/Ilceto/VPS1/refs/heads/main/backroom", --Alpha Ui
